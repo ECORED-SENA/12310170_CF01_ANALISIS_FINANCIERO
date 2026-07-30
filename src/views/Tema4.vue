@@ -42,7 +42,7 @@
             .p-4.d-flex.flex-column.justify-content-between.h-100
               div
                 h4.card-title.text-center.mb-4 Diagnóstico financiero
-                p.mb-0 El diagnostico financiero emite conclusiones sobre la situación de la empresa; por ejemplo, se puede concluir que la liquidez está presionada por aumento de cartera e inventarios.
+                p.mb-0 El diagnóstico financiero emite conclusiones sobre la situación de la empresa; por ejemplo, se puede concluir que la liquidez está presionada por aumento de cartera e inventarios.
       p(data-aos="fade-left") La recomendación financiera consiste en proponer acciones de mejora de acuerdo con los resultados encontrados en el análisis, como fortalecer el cobro de cartera, revisar las compras o controlar los gastos operacionales.
             
       Separador
@@ -80,7 +80,7 @@
           h2 4.4 Interpretación de participaciones, tendencias y cambios relevantes
       .row.justify-content-center.align-items-stretch.mb-5.g-0(data-aos="fade-right")
         .col-lg-7.bg-color-13.d-flex.align-items-center.p-4
-          p.mb-0 El análisis financiero convierte los estados financieros en información útil para interpretar la situación de la empresa y apoyar decisiones mediante el análisis vertical y horizontal. Para interpretar sus resultados, se revisan la importancia de la cuenta, la magnitud del cambio y su efecto en la operación. (Ortiz Anaya, 2011; García Serna, 2009)
+          p.mb-0 El análisis financiero convierte los estados financieros en información útil para interpretar la situación de la empresa y apoyar decisiones mediante el análisis vertical y horizontal. Para interpretar sus resultados, se revisa la importancia de la cuenta, la magnitud del cambio y su efecto en la operación. (Ortiz Anaya, 2011; García Serna, 2009)
         .col-lg-5.d-flex
           figure.mb-0.w-100
             img.h-100.w-100(src='@/assets/curso/temas/t4/img2.png', alt='', style="object-fit: cover;")      
@@ -192,7 +192,7 @@
       .row
         #t_4_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 4.5 Limitaciones del análisis financiero	
-      p(data-aos="fade-left") El análisis financiero se basa en cifras históricas y depende de la calidad de la información contable. Por ello, sus conclusiones deben formularse con prudencia, considerando factores como inflación, estacionalidad, mercado, sector y eventos extraordinarios. (Coral Delgado, 2014; García Serna, 2009). Para realizar el análisis financiero existen algunas limitaciones para realizar interpretación correcta; estas se detallan a continuación:
+      p(data-aos="fade-left") El análisis financiero se basa en cifras históricas y depende de la calidad de la información contable. Por ello, sus conclusiones deben formularse con prudencia, considerando factores como inflación, estacionalidad, mercado, sector y eventos extraordinarios. (Coral Delgado, 2014; García Serna, 2009). Para realizar el análisis financiero, existen algunas limitaciones para realizar una interpretación correcta; estas se detallan a continuación:
       //- Inicio Accordion
       .bg--img_03.mt-3(data-aos="fade-left")
         .row.justify-content-center

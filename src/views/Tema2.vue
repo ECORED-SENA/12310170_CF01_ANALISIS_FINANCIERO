@@ -103,13 +103,13 @@
               p <b>Patrimonio</b> = $ 120.000.000 – $ 45.000.000
               p <b>Patrimonio</b> = $ 75.000.000
               p Esto significa que, después de cubrir sus obligaciones, la participación de los propietarios en la empresa es de $ 75.000.000.
-      p(data-aos="fade-left") La ecuación contable refleja que los recursos de la empresa se financian mediante obligaciones con terceros y aportes o resultados de los propietarios
+      p(data-aos="fade-left") La ecuación contable refleja que los recursos de la empresa se financian mediante obligaciones con terceros y aportes o resultados de los propietarios.
       Separador
       //- Inicio Tema2.2
       .row
         #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.2 Ingresos, costos, gastos y resultado del periodo	
-      p(data-aos="fade-left") El estado de resultados presenta el desempeño económico de la empresa durante un periodo, a partir de la clasificación de ingresos, costos y gastos. Esta información permite determinar la utilidad o pérdida y evaluar si las ventas cubren los compromisos de la operación. El resultado del periodo se calcula de forma general asi:
+      p(data-aos="fade-left") El estado de resultados presenta el desempeño económico de la empresa durante un periodo, a partir de la clasificación de ingresos, costos y gastos. Esta información permite determinar la utilidad o pérdida y evaluar si las ventas cubren los compromisos de la operación. El resultado del periodo se calcula de forma general así:
       .row.justify-content-center.mt-5.mb-5
         .col-lg-4.bg-color-7.p-3.text-center(data-aos="fade-left")
           p Resultado del periodo = Ingresos – Costos – Gastos
@@ -516,8 +516,7 @@
                 figure
                   img(src='@/assets/curso/temas/t2/tarjeta05_7.png').img125
       //- Linea de tiempo
-      p(data-aos="fade-left") La información contable debe organizarse con criterios uniformes para identificar operaciones, respaldar registros, separar datos según su propósito y elaborar estados financieros confiables para el análisis. A continuación, se presenta un ejemplo que permite relacionar los conceptos abordados con una situación práctica:
-      p(data-aos="fade-right") Antes de elaborar los estados financieros, debe organizar la información así:
+      p(data-aos="fade-left") La información contable debe organizarse con criterios uniformes para identificar operaciones, respaldar registros, separar datos según su propósito y elaborar estados financieros confiables para el análisis. A continuación, se presenta un ejemplo que permite relacionar los conceptos abordados con una situación práctica:      
       .row.mb-5.justify-content-center.align-items-center
         .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
           figure.mb-0.text-center
@@ -528,6 +527,7 @@
       .row.bg-fondo-2.mt-5(data-aos="fade-right")
         .col-12
           .pt-3.pb-5.px-5
+            p.mb-5(data-aos="fade-right") Antes de elaborar los estados financieros, debe organizar la información así:
             .row.justify-content-center.mb-5
               .col-md-auto.col-lg-10
                 .titulo-sexto.color-acento-contenido.mb-3
@@ -572,7 +572,7 @@
       .row
         #t_2_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.6 Estado de situación financiera o balance general	
-      p(data-aos="fade-left") El estado de situación financiera presenta los activos, pasivos y patrimonio de la empresa en una fecha determinada, permitiendo conocer su financiación y capacidad de pago. Se elabora a partir de la ecuación contable, por lo que las cuentas deben estar correctamente clasificadas. (Coral Delgado, 2014). La siguiente tabla presenta la forma básica de organizar las cuentas del estado de situación: financiera
+      p(data-aos="fade-left") El estado de situación financiera presenta los activos, pasivos y patrimonio de la empresa en una fecha determinada, permitiendo conocer su financiación y capacidad de pago. Se elabora a partir de la ecuación contable, por lo que las cuentas deben estar correctamente clasificadas. (Coral Delgado, 2014). La siguiente tabla presenta la forma básica de organizar las cuentas del estado de situación financiera:
       .row.bg-fondo-2.mt-5(data-aos="fade-right")
         .col-12
           .pt-3.pb-5.px-5
@@ -672,7 +672,7 @@
                   td Utilidad neta
                   td Resultado final del periodo
                   td $ 15.000.000
-      p(data-aos="fade-left") El ejemplo refleja que la empresa vendió $120.000.000 y obtuvo una utilidad neta de $15.000.000. Esto significa que, después de cubrir costos, gastos, intereses e impuestos, conserva una ganancia equivalente al resultado final del periodo. La secuencia del estado de resultados es la siguiente:
+      p(data-aos="fade-left") El ejemplo refleja que la empresa vendió $ 120.000.000 y obtuvo una utilidad neta de $ 15.000.000. Esto significa que, después de cubrir costos, gastos, intereses e impuestos, conserva una ganancia equivalente al resultado final del periodo. La secuencia del estado de resultados es la siguiente:
       //- Linea de tiempo
       .row.justify-content-center
         .col-lg-8
@@ -690,7 +690,7 @@
                   img(src='@/assets/curso/temas/t2/tarjeta06_2.png').img125
               .col-12.col-lg.text-start
                 h4 Menos: Costo de ventas
-                p Son las mercancía vendida o costo del servicio
+                p Son las mercancías vendidas o costos del servicio.
             .row.align-items-center
               .col-12.col-lg
                 h4 Utilidad bruta

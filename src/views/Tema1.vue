@@ -226,21 +226,21 @@
                         img(src='@/assets/curso/temas/t1/tarjeta03_2.svg' alt='' style="width: 90px; height: 90px; object-fit: contain;").mx-auto
                     .p-2
                       h4.card-title.text-center.mb-3.fw-bold Propietarios o socio
-                      p.text-start.text-center Deciden sobre reinversión, conocimiento de rentabilidad, distribución de utilidades o fortalecimiento del capital y evalúa el crecimiento.
+                      p.text-start.text-center Deciden sobre reinversión, conocimiento de rentabilidad, distribución de utilidades o fortalecimiento del capital y evalúan el crecimiento.
                   .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden.p-4.text-center
                     .row.justify-content-center.mb-3.mt-3
                       .col-auto
                         img(src='@/assets/curso/temas/t1/tarjeta03_3.svg' alt='' style="width: 90px; height: 90px; object-fit: contain;").mx-auto
                     .p-2
                       h4.card-title.text-center.mb-3.fw-bold Jefes de área
-                      p.text-start.text-center Corrigen desviaciones y controlan presupuesto, analizan costos y gastos, evalúa el desempeño de su área y mejoran el desempeño operativo. 
+                      p.text-start.text-center Corrigen desviaciones y controlan el presupuesto, analizan costos y gastos, evalúan el desempeño de su área y mejoran el desempeño operativo. 
                   .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden.p-4.text-center
                     .row.justify-content-center.mb-3.mt-3
                       .col-auto
                         img(src='@/assets/curso/temas/t1/tarjeta03_4.svg' alt='' style="width: 90px; height: 90px; object-fit: contain;").mx-auto
                     .p-2
                       h4.card-title.text-center.mb-3.fw-bold Área contable y financiera
-                      p.text-start.text-center Registra información y la procesa, prepara informes, estados financieros, elabore reportes e indicadores, analiza resultados y alerta sobre riesgos.
+                      p.text-start.text-center Registra información y la procesa, prepara informes, estados financieros, elabora reportes e indicadores, analiza resultados y alerta sobre riesgos.
               .col-lg-4.order-lg-2.d-none.d-lg-block
                   figure
                     img(src='@/assets/curso/temas/t1/img6.png', style="width: 500px", data-aos="zoom-in").m-auto
@@ -260,11 +260,11 @@
           .col-lg-8
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
               .row(titulo="Bancos y entidades financieras")
-                  p.mb-4 Evalúa capacidad financiera, aprueban, niegan o modifican condiciones de crédito y analiza riesgos.               
+                  p.mb-4 Evalúa capacidad financiera, aprueban, niegan o modifican condiciones de crédito y analiza riesgos.
               .row(titulo="Proveedores")
-                  p.mb-4 Otorgan cupos, plazos o descuentos comerciales, conoce historial de pagos y evalúa la liquidez.
+                  p.mb-4 Otorgan cupos, plazos o descuentos comerciales, conocen historial de pagos y evalúan la liquidez.
               .row(titulo="Inversionistas")
-                  p.mb-4 Analiza la rentabilidad, evalúa riesgos y perspectivas, deciden invertir, retirar recursos o solicitar más información. 
+                  p.mb-4 Analizan la rentabilidad, evalúan riesgos y perspectivas, deciden invertir, retirar recursos o solicitar más información. 
               .row(titulo="Estado y organismos de control")
                   p.mb-4 Verifican obligaciones contables, tributarias y legales. Realiza inspección y control.
               .row(titulo="Clientes estratégicos")

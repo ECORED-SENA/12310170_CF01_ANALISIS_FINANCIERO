@@ -79,7 +79,7 @@
           h2 3.2 Fórmulas básicas para cálculos financieros
       .row.justify-content-center.align-items-stretch.mb-2.g-0(data-aos="fade-right")
         .col-lg-7.bg-color-13.d-flex.align-items-center.p-4
-          p.mb-0 Las fórmulas permiten realizar cálculos automáticos para sumar cuentas, calcular diferencias y determinar porcentajes en el análisis financiero. Su aplicación es clave en el análisis vertical y horizontal, siempre que se identifique correctamente la base de comparación. Estas, se resumen a continuación:
+          p.mb-0 Las fórmulas permiten realizar cálculos automáticos para sumar cuentas, calcular diferencias y determinar porcentajes en el análisis financiero. Su aplicación es clave en el análisis vertical y horizontal, siempre que se identifique correctamente la base de comparación. Estas se resumen a continuación:
         .col-lg-5.d-flex
           figure.mb-0.w-100
             img.h-100.w-100(src='@/assets/curso/temas/t3/img2.png', alt='', style="object-fit: cover;")      
@@ -128,7 +128,7 @@
       .row
         #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 3.3 Tablas comparativas, gráficos y tableros	
-      p(data-aos="fade-left") Las tablas comparativas, gráficos y tableros facilitan el análisis financiero al presentar variaciones, tendencias e indicadores de forma clara. Estas herramientas apoyan la interpretación de resultados, permiten observar comportamientos relevantes y contribuyen a la toma de decisiones empresariales. La tabla siguiente, indica cómo organizar información para calcular variaciones entre dos periodos.
+      p(data-aos="fade-left") Las tablas comparativas, gráficos y tableros facilitan el análisis financiero al presentar variaciones, tendencias e indicadores de forma clara. Estas herramientas apoyan la interpretación de resultados, permiten observar comportamientos relevantes y contribuyen a la toma de decisiones empresariales. La tabla siguiente indica cómo organizar información para calcular variaciones entre dos periodos.
       .row.bg-fondo-2.mt-5(data-aos="fade-right")
         .col-12
           .pt-3.pb-5.px-5

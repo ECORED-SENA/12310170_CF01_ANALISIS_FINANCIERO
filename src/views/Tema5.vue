@@ -100,7 +100,7 @@
         .col-12.col-lg-7.order-1(data-aos="fade-right")
           p Para relacionar el concepto con una situación práctica, se plantea el siguiente ejemplo:
           .bg-color-10.p-4
-            p.fw-bold Ejemplo Indicadores de liquidez
+            p.fw-bold Ejemplo: Indicadores de liquidez
             p Una empresa tiene activo corriente por $ 90.000.000, inventarios por $ 35.000.000 y pasivo corriente por $ 50.000.000.
             ul.lista-ul.color-vinotinto-custom.mb-0
               li.d-flex
@@ -158,7 +158,7 @@
       .row.mb-5.justify-content-center.align-items-center
         .col-12.col-sm-9.col-lg-5.order-2.mb-4.mb-lg-0(data-aos="fade-left")
           figure.mb-0.text-center
-            img(src='@/assets/curso/temas/t5/img5.png' style="width: 600px").m-auto        
+            img(src='@/assets/curso/temas/t5/img5.png' style="width: 600px").m-auto
         .col-12.col-lg-7.order-1(data-aos="fade-right")
           p El siguiente ejemplo permite aplicar los conceptos abordados:
           .bg-color-10.p-4
@@ -167,7 +167,6 @@
             p <b>Rotación de cartera =</b> $ 120.000.000 / $ 30.000.000 = 4 veces
             p <b>Días de cuentas por cobrar =</b> 360 / 4 = 90 días
             p.mt-3 Si la política de crédito de la empresa es de 60 días, el resultado refleja una demora promedio de 30 días adicionales. La decisión operativa puede orientarse a fortalecer la gestión de cobro, revisar cupos de crédito o aplicar descuentos por pronto pago.
-      p Los indicadores de endeudamiento analizan qué parte de los recursos de la empresa está financiada con terceros y permiten identificar riesgos por dependencia de bancos, proveedores u otros acreedores. Su interpretación debe relacionarse con la liquidez, rentabilidad y flujo de efectivo. (Ortiz Anaya, 2011; García Serna, 2009). Los indicadores de endeudamiento son:
       Separador
       //- Inicio Tema5.4
       .row
@@ -200,7 +199,7 @@
                   img(src='@/assets/curso/temas/t5/tarjeta03_3.png')
               .col-lg-7.order-2.mb-3.mb-lg-0
                 h4 Cobertura de intereses
-                p se calcula dividiendo la utilidad operacional entre los gastos financieros. Mide la capacidad de la empresa para cubrir los intereses con los resultados generados por su operación.
+                p Se calcula dividiendo la utilidad operacional entre los gastos financieros. Mide la capacidad de la empresa para cubrir los intereses con los resultados generados por su operación.
                 p.bg-color-11.p-3.d-inline-block Fórmula: Utilidad operacional / Gastos financieros
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-1
@@ -208,7 +207,7 @@
                   img(src='@/assets/curso/temas/t5/tarjeta03_4.png')
               .col-lg-7.order-2.mb-3.mb-lg-0
                 h4 Relación deuda-patrimonio
-                p se calcula dividiendo el total pasivo entre el patrimonio. Compara la financiación proveniente de terceros frente a los recursos propios de la empresa.
+                p Se calcula dividiendo el total pasivo entre el patrimonio. Compara la financiación proveniente de terceros frente a los recursos propios de la empresa.
                 p.bg-color-11.p-3.d-inline-block Fórmula: Total pasivo / Patrimonio
       //- Fin Slideshow
       p(data-aos="fade-left") <b>Nota.</b> Tabla con fines didácticos para interpretar el peso de las obligaciones dentro de la estructura financiera de la empresa.
@@ -218,7 +217,7 @@
             img(src='@/assets/curso/temas/t5/img6.png' style="width: 600px").m-auto
         .col-12.col-lg-7.order-1(data-aos="fade-right")
           .bg-color-10.p-4
-            p.fw-bold Ejemplo Indicadores de endeudamiento:
+            p.fw-bold Ejemplo: Indicadores de endeudamiento
             p Una empresa tiene total pasivo por $ 90.000.000, total activo por $ 180.000.000 y patrimonio por $ 90.000.000.<br><br>
             p <b>Nivel de endeudamiento =</b> $ 90.000.000 /  $180.000.000 × 100 = 50 %
             p <b>Relación deuda-patrimonio =</b> $ 90.000.000 / $ 90.000.000 = 1,0<br><br>
@@ -258,7 +257,7 @@
                 .col-md-6
                   h4 Margen neto
                   p Se calcula dividiendo la utilidad neta entre las ventas y multiplicando por 100. Indica qué porcentaje de las ventas queda como utilidad final.
-                  p.mb-0.bg-color-4.p-3.d-inline-block <b>Fórmula:</b>: Utilidad neta / Ventas × 100
+                  p.mb-0.bg-color-4.p-3.d-inline-block <b>Fórmula:</b> Utilidad neta / Ventas × 100
             .py-3.py-md-4(titulo="Rentabilidad del activo, ROA")
               .row.align-items-center
                 .col-md-6.mb-4.mb-md-0
@@ -267,7 +266,7 @@
                 .col-md-6
                   h4 Rentabilidad del activo, ROA
                   p Se calcula dividiendo la utilidad neta entre el total activo y multiplicando por 100. Mide la capacidad de los activos para generar utilidad.
-                  p.mb-0.bg-color-4.p-3.d-inline-block <b>Fórmula:</b>: Utilidad neta / Total activo × 100
+                  p.mb-0.bg-color-4.p-3.d-inline-block <b>Fórmula:</b> Utilidad neta / Total activo × 100
             .py-3.py-md-4(titulo="Rentabilidad del patrimonio, ROE")
               .row.align-items-center
                 .col-md-6.mb-4.mb-md-0
@@ -276,14 +275,14 @@
                 .col-md-6
                   h4 Rentabilidad del patrimonio, ROE
                   p Se calcula dividiendo la utilidad neta entre el patrimonio y multiplicando por 100. Evalúa el rendimiento obtenido sobre los recursos de los propietarios.
-                  p.mb-0.bg-color-4.p-3.d-inline-block <b>Fórmula:</b>: Utilidad neta / Patrimonio × 100
+                  p.mb-0.bg-color-4.p-3.d-inline-block <b>Fórmula:</b> Utilidad neta / Patrimonio × 100
       .row.mb-5.justify-content-center.align-items-center
         .col-12.col-sm-9.col-lg-5.order-2.mb-4.mb-lg-0(data-aos="fade-left")
           figure.mb-0.text-center
             img(src='@/assets/curso/temas/t5/img7.png' style="width: 600px").m-auto
         .col-12.col-lg-7.order-1(data-aos="fade-right")
           .bg-color-10.p-2
-            p.fw-bold Ejemplo Indicadores de rentabilidad
+            p.fw-bold Ejemplo: Indicadores de rentabilidad
             p Una empresa presenta ventas por $ 120.000.000, utilidad neta por $ 18.000.000, total activo por $ 150.000.000 y patrimonio por $ 80.000.000.<br><br>
             p <b>Margen neto =</b> $ 18.000.000 / $ 120.000.000 × 100 = 15 %
             p <b>ROA =</b> $ 18.000.000 / $ 150.000.000 × 100 = 12 %
