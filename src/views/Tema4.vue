@@ -43,8 +43,7 @@
               div
                 h4.card-title.text-center.mb-4 Diagnóstico financiero
                 p.mb-0 El diagnóstico financiero emite conclusiones sobre la situación de la empresa; por ejemplo, se puede concluir que la liquidez está presionada por aumento de cartera e inventarios.
-      p(data-aos="fade-left") La recomendación financiera consiste en proponer acciones de mejora de acuerdo con los resultados encontrados en el análisis, como fortalecer el cobro de cartera, revisar las compras o controlar los gastos operacionales.
-            
+      p.mb-0(data-aos="fade-left") La recomendación financiera consiste en proponer acciones de mejora de acuerdo con los resultados encontrados en el análisis, como fortalecer el cobro de cartera, revisar las compras o controlar los gastos operacionales.
       Separador
       //- Inicio Tema4.2
       .row
@@ -136,7 +135,7 @@
       //- Linea de tiempo
       .row.justify-content-center(data-aos="fade-left")
         .col-lg-10
-          PasosA.color-acento-contenido.mb-4(tipo="n")
+          PasosA.color-acento-contenido(tipo="n")
             .row.align-items-center
               .col-12.col-lg
                 h4 Estados financieros
@@ -230,7 +229,7 @@
               img(src='@/assets/curso/temas/bg/lineas.svg', style="width: 80px")
             .flex-grow-1.text-center.text-lg-start
               p.mb-0 Reconocer las limitaciones del análisis financiero permite interpretar los resultados con prudencia, relacionando cifras, porcentajes y variaciones con la actividad económica, el periodo evaluado y la calidad de la información. Estas limitaciones fortalecen el diagnóstico y orientan recomendaciones más realistas para mejorar la operación y apoyar decisiones. (Ortiz Anaya, 2011)
-      .row.mb-5.justify-content-center.align-items-center.bg-color-4.p-2
+      .row.mb-4.justify-content-center.align-items-center.bg-color-4.p-2
         .row
           .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
             figure.mb-0.text-center
@@ -240,7 +239,7 @@
             .row.bg-color-11.p-4
               p.fw-bold Ejemplo aplicado: Métodos básicos de análisis financiero
               p La empresa Comercial Norte S.A.S. presenta información resumida de su estado de situación financiera para los años 1 y 2. La gerencia desea identificar cómo cambió la estructura de sus recursos y obligaciones, especialmente en cartera, inventarios y proveedores. Seguidamente, se presentan los valores de los dos años y los análisis vertical y horizontal para revisar la estructura y variación de activos, pasivos y patrimonio.
-        .row.justify-content-center.mb-5
+        .row.justify-content-center
           .col-md-auto.col-lg-10
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 14.
@@ -335,7 +334,7 @@
           .col-12.col-sm-9.col-lg-5.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-left")
             figure.mb-0.text-center
               img(src='@/assets/curso/temas/t4/img6.png' style="width: 500px").m-auto
-      p(data-aos="fade-left") La empresa aumenta sus activos, pero reduce su efectivo y concentra más recursos en cartera e inventarios. Por ello, debe fortalecer el cobro, revisar el crédito, evaluar inventarios y analizar su capacidad de pago para evitar problemas de liquidez y endeudamiento. (Ortiz Anaya, 2011).
+      p.mb-0(data-aos="fade-left") La empresa aumenta sus activos, pero reduce su efectivo y concentra más recursos en cartera e inventarios. Por ello, debe fortalecer el cobro, revisar el crédito, evaluar inventarios y analizar su capacidad de pago para evitar problemas de liquidez y endeudamiento. (Ortiz Anaya, 2011).
 </template>
 
 <script>

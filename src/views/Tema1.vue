@@ -271,14 +271,14 @@
                   p.mb-4 Evalúan continuidad, estabilidad y cumplimiento empresarial. Decide sobre relaciones comerciales.
       //- Fin Accordion
       p(data-aos="fade-left") Una vez diferenciados los usuarios internos y externos, es importante reconocer que cada uno requiere información específica para tomar decisiones según sus intereses y responsabilidades. Por ello, a continuación, se relacionan los principales usuarios de la información financiera y los datos que necesitan consulta:
-      .row.bg-fondo-2.mt-5(data-aos="fade-right")
+      .row.bg-fondo-2(data-aos="fade-right")
         .col-12
           .pt-3.pb-5.px-5
             //- Carrusel
             .bg-full-width
               .px-4.px-md-5.pb-md-3             
                 .carousel-bg
-                  .row.justify-content-center.mb-5.align-items-center
+                  .row.justify-content-center.align-items-center
                     .col-lg-12.mb-3.mb-lg-0.order-lg-2
                       SlyderF(columnas="col-xl-4 col-lg-4 col-md-6 col-12")                        
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden.p-4.text-center
@@ -395,7 +395,7 @@
                   figure
                     img(src='@/assets/curso/temas/t1/tarjeta05_5.png')                          
       //- Cierres Pestanas horizontales
-      p(data-aos="fade-left") En la práctica, el marco normativo exige identificar las características de la empresa para clasificar cuentas, presentar estados financieros, revelar información y diferenciar lo contable de lo tributario.
+      p.mb-0(data-aos="fade-left") En la práctica, el marco normativo exige identificar las características de la empresa para clasificar cuentas, presentar estados financieros, revelar información y diferenciar lo contable de lo tributario.
       Separador
       //- Inicio Tema1.6
       .row
@@ -403,7 +403,7 @@
           h2 1.6 Principios y cualidades de la información financiera	
       p(data-aos="fade-left") Los principios de la información financiera orientan el reconocimiento, medición, presentación y revelación de los hechos económicos, permitiendo que los estados financieros reflejen la realidad de la empresa. Además, esta información debe cumplir cualidades que fortalezcan su utilidad para la toma de decisiones.
       //- Slideshow
-      .bg-full-width.bg-fondo-slider.mb-3
+      .bg-full-width.bg-fondo-slider.mb-4
         .p-4.p-md-5
           SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
             .row.align-items-center.p-4.p-md-5
@@ -449,7 +449,7 @@
                 h4 Comprensibilidad
                 p Exige que la información se presente de forma clara, ordenada y suficiente. El uso de tablas, notas y explicaciones facilita su interpretación. Si no se cumple, pueden generarse confusiones o interpretaciones erradas.
       //- Fin Slideshow
-      p(data-aos="fade-left") Estas cualidades hacen que la información financiera sea útil, confiable y pertinente para diagnosticar la situación de la empresa y apoyar decisiones acertadas.      
+      p.mb-0(data-aos="fade-left") Estas cualidades hacen que la información financiera sea útil, confiable y pertinente para diagnosticar la situación de la empresa y apoyar decisiones acertadas.      
       Separador
       //- Inicio Tema1.7
       .row
@@ -538,7 +538,7 @@
                   td Realizar diagnóstico financiero e interpretar resultados
       //- FinTabla      
       p(data-aos="fade-left") El flujo de la información financiera inicia con el hecho económico, continúa con el soporte documental, el registro contable, la validación y la consolidación en estados financieros, hasta llegar al análisis financiero. El siguiente caso permite reconocer la importancia de validar fuentes, registros e informes antes de emitir un diagnóstico.
-      .row.mb-5.justify-content-center.align-items-center
+      .row.mb-4.justify-content-center.align-items-center
           .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
             figure.mb-0.text-center
               img(src='@/assets/curso/temas/t1/img8.png' style="width: 500px").m-auto

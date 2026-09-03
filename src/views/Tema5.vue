@@ -6,7 +6,7 @@
         .titulo-principal__numero
           span 5
         h1 Indicadores financieros, diagnóstico e informe	
-      .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
+      .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t5/img1.png')})` }")
         .bloque-texto-g__texto.p-4
@@ -18,7 +18,7 @@
           h2 5.1 Indicadores financieros y parámetros de comparación
       p(data-aos="fade-left") Un indicador financiero relaciona cifras de los estados financieros para evaluar liquidez, eficiencia, endeudamiento y rentabilidad. Su interpretación requiere comparar resultados con periodos anteriores, metas o referencias del sector, considerando la realidad operativa de la empresa. Para interpretar los indicadores de manera correcta, se presentan los parámetros para tener en cuenta:
       //- Slideshow
-      .bg-full-width.bg-fondo-slider.mb-3
+      .bg-full-width.bg-fondo-slider.mb-4
         .p-4.p-md-5
           SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
             .row.align-items-center.p-4.p-md-5
@@ -57,7 +57,7 @@
                 h4 Objetivos de la gerencia
                 p Permiten analizar el avance frente a los propósitos administrativos. Por ejemplo, evaluar la reducción del endeudamiento o la mejora en la rentabilidad.
       //- Fin Slideshow
-      p(data-aos="fade-left") Con estos parámetros de comparación se evita generar conclusiones aisladas y erradas.
+      p.mb-0(data-aos="fade-left") Con estos parámetros de comparación se evita generar conclusiones aisladas y erradas.
       Separador
       //- Inicio Tema5.2
       .row
@@ -65,7 +65,7 @@
           h2 5.2 Indicadores de liquidez
       p(data-aos="fade-left") Los indicadores de liquidez evalúan la capacidad de la empresa para cumplir obligaciones de corto plazo y administrar su capital de trabajo. Su análisis permite detectar presiones de pago, exceso de inventarios o cartera pendiente de recaudo. (Ortiz Anaya, 2011; García Serna, 2009). Los principales indicadores de liquidez son:
       //- Inicio Tarjetas
-      .row.justify-content-center.mt-5.mb-5(data-aos="fade-left")
+      .row.justify-content-center.mt-5(data-aos="fade-left")
         .col-12.col-sm-9.col-md-6.col-lg-4.mb-4.d-flex.flex-column
           .tarjeta.rounded-3.h-100.border.overflow-hidden.shadow.bg-color-9
             figure.mb-0
@@ -93,7 +93,7 @@
                 h4.card-title.text-center.mb-4 Capital de trabajo neto
                 p Se calcula restando el pasivo corriente al activo corriente. Presenta el excedente o déficit de recursos corrientes después de cubrir las obligaciones próximas.
                 p.mb-0.bg-color-4.p-3 <b>Fórmula:</b> Activo corriente - Pasivo corriente
-      .row.mb-5.justify-content-center.align-items-center
+      .row.justify-content-center.align-items-center
         .col-12.col-sm-9.col-lg-5.order-2.mb-4.mb-lg-0(data-aos="fade-left")
           figure.mb-0.text-center
             img(src='@/assets/curso/temas/t5/img2.png' style="width: 600px").m-auto        
@@ -155,7 +155,7 @@
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/t5/img4.png", style="width: 100%;").m-auto
       //- Fin Accordion
-      .row.mb-5.justify-content-center.align-items-center
+      .row.justify-content-center.align-items-center
         .col-12.col-sm-9.col-lg-5.order-2.mb-4.mb-lg-0(data-aos="fade-left")
           figure.mb-0.text-center
             img(src='@/assets/curso/temas/t5/img5.png' style="width: 600px").m-auto
@@ -174,7 +174,7 @@
           h2 5.4 Indicadores de endeudamiento
       p(data-aos="fade-left") Los indicadores de endeudamiento analizan qué parte de los recursos de la empresa está financiada con terceros y permiten identificar riesgos por dependencia de bancos, proveedores u otros acreedores. Su interpretación debe relacionarse con la liquidez, rentabilidad y flujo de efectivo. (Ortiz Anaya, 2011; García Serna, 2009). Los indicadores de endeudamiento son:
       //- Slideshow
-      .bg-full-width.bg-fondo-slider.mb-3
+      .bg-full-width.bg-fondo-slider.mb-4
         .p-4.p-md-5
           SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
             .row.align-items-center.p-4.p-md-5
@@ -211,7 +211,7 @@
                 p.bg-color-11.p-3.d-inline-block Fórmula: Total pasivo / Patrimonio
       //- Fin Slideshow
       p(data-aos="fade-left") <b>Nota.</b> Tabla con fines didácticos para interpretar el peso de las obligaciones dentro de la estructura financiera de la empresa.
-      .row.mb-5.justify-content-center.align-items-center
+      .row.justify-content-center.align-items-center
         .col-12.col-sm-9.col-lg-5.order-2.mb-4.mb-lg-0(data-aos="fade-left")
           figure.mb-0.text-center
             img(src='@/assets/curso/temas/t5/img6.png' style="width: 600px").m-auto
@@ -276,7 +276,7 @@
                   h4 Rentabilidad del patrimonio, ROE
                   p Se calcula dividiendo la utilidad neta entre el patrimonio y multiplicando por 100. Evalúa el rendimiento obtenido sobre los recursos de los propietarios.
                   p.mb-0.bg-color-4.p-3.d-inline-block <b>Fórmula:</b> Utilidad neta / Patrimonio × 100
-      .row.mb-5.justify-content-center.align-items-center
+      .row.justify-content-center.align-items-center
         .col-12.col-sm-9.col-lg-5.order-2.mb-4.mb-lg-0(data-aos="fade-left")
           figure.mb-0.text-center
             img(src='@/assets/curso/temas/t5/img7.png' style="width: 600px").m-auto
@@ -340,7 +340,7 @@
       //- Linea de tiempo
       .row.justify-content-center(data-aos="fade-left")
         .col-lg-10
-          PasosA.color-acento-contenido.mb-4(tipo="n")
+          PasosA.color-acento-contenido(tipo="n")
             .row.align-items-center
               .col-12.col-lg
                 h4 Cálculo del indicador
@@ -391,9 +391,9 @@
           h2 5.7 Informe financiero con conclusiones y recomendaciones
       P El informe financiero comunica de forma clara, técnica y ordenada los resultados del análisis, el diagnóstico y las recomendaciones para la toma de decisiones. Cada resultado debe incluir interpretación y, cuando sea necesario, acciones de mejora. (Ortiz Anaya, 2011; García Serna, 2009). Para la realización del informe, se debe tener en cuenta la siguiente estructura:
       //- Linea de tiempo
-      .row.justify-content-center(data-aos="fade-left")
+      .row.justify-content-center.mb-5(data-aos="fade-left")
         .col-lg-10
-          PasosA.color-acento-contenido.mb-4(tipo="n")
+          PasosA.color-acento-contenido(tipo="n")
             .row.align-items-center
               .col-12.col-lg
                 h4 Identificación de la empresa
@@ -450,7 +450,7 @@
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Criterios para redactar conclusiones y recomendaciones
       p(data-aos="fade-left") Las conclusiones y recomendaciones deben surgir de los resultados del análisis financiero, relacionando cifras, variaciones e indicadores con la situación real de la empresa. Los criterios para tener en cuenta son:
       //- Inicio Tarjetas
-      .row.justify-content-center.mt-5.mb-5(data-aos="fade-left")
+      .row.justify-content-center.mt-5(data-aos="fade-left")
         .col-12.col-sm-9.col-md-6.col-lg-4.mb-4.d-flex.flex-column
           .tarjeta.rounded-3.h-100.border.overflow-hidden.shadow.bg-color-9
             figure.mb-0

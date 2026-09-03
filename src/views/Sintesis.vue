@@ -12,7 +12,7 @@
       .row.justify-content-center
         .col-lg-10.mb-5.bgs.p-4.brad
           figure
-            img(src="@/assets/curso/sintesis.svg", alt="El diagrama presenta la estructura temática del componente Elaboración e interpretación de estados financieros, organizada en cinco ejes principales. Inicia con los fundamentos financieros y normativos, continúa con la estructura contable y la elaboración de estados financieros básicos, incorpora el procesamiento digital de la información financiera, desarrolla los métodos de análisis vertical y horizontal, y finaliza con indicadores financieros, diagnóstico e informe. En conjunto, muestra una ruta progresiva que va desde la comprensión de los conceptos contables hasta la interpretación de resultados para apoyar la toma de decisiones empresariales.")
+            img(src="@/assets/curso/sintesis.svg", alt="El diagrama presenta la estructura temática del componente Elaboración e interpretación de estados financieros, organizada en cinco ejes principales. Inicia con los fundamentos financieros y normativos, continúa con la estructura contable y la elaboración de estados financieros básicos, incorpora el procesamiento digital de la información financiera, desarrolla los métodos de análisis vertical y horizontal, y finaliza con indicadores financieros, diagnóstico e informe. En conjunto, muestra una ruta progresiva que va desde la comprensión de los conceptos contables hasta la interpretación de resultados para apoyar la toma de decisiones empresariales.")
         .col-auto
           a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
             .anexo__icono

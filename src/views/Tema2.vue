@@ -88,7 +88,7 @@
           p.mb-4 Toda transacción que realice la empresa afecta por lo menos dos cuentas, manteniendo el equilibrio: 
           div
             p.bg-color-8.d-inline-block.py-3.px-5.mb-0 Activo = Pasivo + Patrimonio
-      .row.mb-5.justify-content-center.align-items-center
+      .row.mb-4.justify-content-center.align-items-center
         .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
           figure.mb-0.text-center
             img(src='@/assets/curso/temas/t2/img3.png' style="width: 600px").m-auto
@@ -103,7 +103,7 @@
               p <b>Patrimonio</b> = $ 120.000.000 – $ 45.000.000
               p <b>Patrimonio</b> = $ 75.000.000
               p Esto significa que, después de cubrir sus obligaciones, la participación de los propietarios en la empresa es de $ 75.000.000.
-      p(data-aos="fade-left") La ecuación contable refleja que los recursos de la empresa se financian mediante obligaciones con terceros y aportes o resultados de los propietarios.
+      p.mb-0(data-aos="fade-left") La ecuación contable refleja que los recursos de la empresa se financian mediante obligaciones con terceros y aportes o resultados de los propietarios.
       Separador
       //- Inicio Tema2.2
       .row
@@ -296,10 +296,10 @@
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Naturaleza de las cuentas
       //- Título nivel 3 - Imagen
       p La naturaleza de las cuentas indica cómo aumentan o disminuyen. En general, activos, costos y gastos tienen naturaleza débito, mientras que pasivos, patrimonio e ingresos tienen naturaleza crédito. En la siguiente tabla se resume la naturaleza general de las cuentas para apoyar la comprensión de su comportamiento contable.
-      .row.bg-fondo-2.mt-5(data-aos="fade-right")
+      .row.bg-fondo-2(data-aos="fade-right")
         .col-12
-          .pt-3.pb-5.px-5
-            .row.justify-content-center.mb-5
+          .pt-3.px-5
+            .row.justify-content-center
               .col-md-auto.col-lg-10
                 .titulo-sexto.color-acento-contenido.mb-3
                   h5 Tabla 4.
@@ -397,7 +397,7 @@
                 p Corresponde a obligaciones cuyo vencimiento supera el corto plazo. Incluye créditos bancarios de largo plazo y obligaciones financieras de largo plazo. Su clasificación permite evaluar la estructura de financiación y los compromisos futuros de la empresa.
       //- Linea de tiempo
       p Para entender esta dinámica, se presenta el siguiente ejemplo:
-      .row.mb-5.justify-content-center.align-items-center
+      .row.mb-4.justify-content-center.align-items-center
         .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
           figure.mb-0.text-center
             img(src='@/assets/curso/temas/t2/img9.png' style="width: 600px").m-auto
@@ -445,7 +445,7 @@
                 li.d-flex
                   .fas.fa-check-circle.me-3
                   span <b>Pasivos no corrientes:</b> crédito bancario a 4 años.
-      p(data-aos="fade-left") Esta clasificación permite observar qué recursos pueden apoyar la operación de corto plazo y qué obligaciones deben atenderse próximamente.
+      p.mb-0(data-aos="fade-left") Esta clasificación permite observar qué recursos pueden apoyar la operación de corto plazo y qué obligaciones deben atenderse próximamente.
       Separador
       //- Inicio Tema2.5
       .row
@@ -517,18 +517,18 @@
                   img(src='@/assets/curso/temas/t2/tarjeta05_7.png').img125
       //- Linea de tiempo
       p(data-aos="fade-left") La información contable debe organizarse con criterios uniformes para identificar operaciones, respaldar registros, separar datos según su propósito y elaborar estados financieros confiables para el análisis. A continuación, se presenta un ejemplo que permite relacionar los conceptos abordados con una situación práctica:      
-      .row.mb-5.justify-content-center.align-items-center
+      .row.justify-content-center.align-items-center.mb-4
         .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
           figure.mb-0.text-center
             img(src='@/assets/curso/temas/t2/img11.png' style="width: 500px").m-auto
         .col-12.col-lg-7.order-2.order-lg-1.bg-color-10.p-4(data-aos="fade-right")
           p.fw-bold Ejemplo:
           p Una empresa comercial recibe durante el mes los siguientes documentos: facturas de venta por $ 45.000.000, facturas de compra de mercancía por $ 28.000.000, pagos de nómina por $ 6.000.000, extractos bancarios, reporte de cartera y conteo físico de inventarios.
-      .row.bg-fondo-2.mt-5(data-aos="fade-right")
+      .row.bg-fondo-2(data-aos="fade-right")
         .col-12
-          .pt-3.pb-5.px-5
-            p.mb-5(data-aos="fade-right") Antes de elaborar los estados financieros, debe organizar la información así:
-            .row.justify-content-center.mb-5
+          .px-5
+            p.mb-4(data-aos="fade-right") Antes de elaborar los estados financieros, debe organizar la información así:
+            .row.justify-content-center.mb-4
               .col-md-auto.col-lg-10
                 .titulo-sexto.color-acento-contenido.mb-3
                   h5 Tabla 5.
@@ -566,7 +566,7 @@
                         td Inventarios
                         td Comparar existencias físicas con registros del sistema
             //- FinTabla
-            p(data-aos="fade-left") Antes de elaborar estados financieros, la empresa debe verificar que las operaciones estén completas, soportadas y correctamente clasificadas, asegurando saldos confiables.
+            p.mb-0(data-aos="fade-left") Antes de elaborar estados financieros, la empresa debe verificar que las operaciones estén completas, soportadas y correctamente clasificadas, asegurando saldos confiables.
       Separador
       //- Inicio Tema2.6
       .row
@@ -575,8 +575,8 @@
       p(data-aos="fade-left") El estado de situación financiera presenta los activos, pasivos y patrimonio de la empresa en una fecha determinada, permitiendo conocer su financiación y capacidad de pago. Se elabora a partir de la ecuación contable, por lo que las cuentas deben estar correctamente clasificadas. (Coral Delgado, 2014). La siguiente tabla presenta la forma básica de organizar las cuentas del estado de situación financiera:
       .row.bg-fondo-2.mt-5(data-aos="fade-right")
         .col-12
-          .pt-3.pb-5.px-5
-            .row.justify-content-center.mb-5
+          .px-5
+            .row.justify-content-center.mb-4
               .col-md-auto.col-lg-10
                 .titulo-sexto.color-acento-contenido.mb-3
                   h5 Tabla 6.
@@ -617,7 +617,7 @@
                         td Participación de los propietarios en la empresa
             //- FinTabla
       p.mb-5(data-aos="fade-left") En la siguiente figura se presenta cómo se organizan los activos, pasivos y patrimonio dentro del estado de situación financiera, verificando que el total de activos sea igual a la suma del pasivo y el patrimonio.            
-      .row.justify-content-center.mb-5(data-aos="fade-right")
+      .row.justify-content-center(data-aos="fade-right")
         .col-md-auto.col-lg-10
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 1.
@@ -630,8 +630,8 @@
       .row
         #t_2_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.7 Estado de resultados
-      p.mb-5(data-aos="fade-left") El estado de resultados presenta el desempeño económico de la empresa durante un periodo, al comparar ingresos, costos y gastos. Su análisis permite identificar utilidad o pérdida, evaluar la generación de ganancias, controlar gastos y apoyar decisiones sobre precios, costos y eficiencia operativa. La estructura del estado de resultados se presenta a continuación:          
-      .row.justify-content-center.mb-5(data-aos="fade-left")
+      p.mb-4(data-aos="fade-left") El estado de resultados presenta el desempeño económico de la empresa durante un periodo, al comparar ingresos, costos y gastos. Su análisis permite identificar utilidad o pérdida, evaluar la generación de ganancias, controlar gastos y apoyar decisiones sobre precios, costos y eficiencia operativa. La estructura del estado de resultados se presenta a continuación:          
+      .row.justify-content-center.mb-4(data-aos="fade-left")
         .col-md-auto.col-lg-10
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 7.
@@ -676,7 +676,7 @@
       //- Linea de tiempo
       .row.justify-content-center
         .col-lg-8
-          PasosA.color-acento-contenido.mb-4(tipo="n")(data-aos="fade-left")
+          PasosA.color-acento-contenido(tipo="n")(data-aos="fade-left")
             .row.align-items-center
               .col-12.col-lg
                 h4 Ingresos operacionales
@@ -689,7 +689,7 @@
                 figure
                   img(src='@/assets/curso/temas/t2/tarjeta06_2.png').img125
               .col-12.col-lg.text-start
-                h4 Menos: Costo de ventas
+                h4 Menos: costo de ventas
                 p Son las mercancías vendidas o costos del servicio.
             .row.align-items-center
               .col-12.col-lg
@@ -703,7 +703,7 @@
                 figure
                   img(src='@/assets/curso/temas/t2/tarjeta06_4.png').img125
               .col-12.col-lg.text-start
-                h4 Menos: Gastos operacionales
+                h4 Menos: gastos operacionales
                 p Son los siguientes:
                 ul.lista-ul.color-vinotinto-custom.mb-0
                   li.d-flex
@@ -724,7 +724,7 @@
                 figure
                   img(src='@/assets/curso/temas/t2/tarjeta06_6.png').img125
               .col-12.col-lg.text-start
-                h4 Menos: Gastos financieros e impuestos
+                h4 Menos: gastos financieros e impuestos
                 p Corresponden a los intereses, costos de financiación y obligaciones tributarias que disminuyen el resultado antes de obtener la utilidad neta o pérdida neta.
             .row.align-items-center
               .col-12.col-lg
@@ -770,7 +770,7 @@
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/t2/img14.png", style="width: 100%;").m-auto
       //- Fin Accordion
-      .row.mb-5.justify-content-center.align-items-center
+      .row.justify-content-center.align-items-center
         .col-12.col-sm-9.col-lg-5.order-1.mb-4.mb-lg-0(data-aos="fade-left")
           figure.mb-0.text-center
             img(src='@/assets/curso/temas/t2/img15.png' style="width: 600px").m-auto        
@@ -800,8 +800,7 @@
                   tr
                     td Patrimonio final
                     td $ 120.000.000                    
-            p.mb-0 El patrimonio pasó de $ 90.000.000 a $ 120.000.000 por efecto de nuevos aportes, utilidad generada y distribución parcial de utilidades.          
-          
+            p.mb-0 El patrimonio pasó de $ 90.000.000 a $ 120.000.000 por efecto de nuevos aportes, utilidad generada y distribución parcial de utilidades.
       Separador
       //- Inicio Tema2.9
       .row
@@ -863,7 +862,7 @@
                     td Aumento neto de efectivo
                     td $ 13.000.000
             p.mb-0 La empresa generó efectivo por su operación, invirtió en activos y recibió financiación adicional. El resultado final fue un aumento de efectivo de $ 13.000.000.
-      .row.mb-5.justify-content-center.align-items-center
+      .row.justify-content-center.align-items-center
         .col-12.col-sm-9.col-lg-5.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-left")
           figure.mb-0.text-center
             img(src='@/assets/curso/temas/t2/img17.png' style="width: 600px").m-auto
@@ -876,15 +875,15 @@
       .row
         #t_2_10.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.10 Notas básicas a los estados financieros	
-      p(data-aos="fade-left") Las notas a los estados financieros complementan los informes principales al explicar políticas contables, criterios de medición y detalles de cuentas relevantes. Su función es aclarar información que no se observa completamente en las cifras, como vencimientos, garantías, deterioros, restricciones o compromisos. La información frecuente en notas a los estados financieros es la siguiente:
       .row.bg-fondo-1(data-aos="fade-right")
         .col-12
-          .pt-3.pb-5.px-5
+          .px-5
             //- Carrusel
             .bg-full-width
               .px-4.px-md-5.pb-md-3
                 .carousel-bg
-                  .row.justify-content-center.mb-5.align-items-center
+                  p.mb-4(data-aos="fade-left") Las notas a los estados financieros complementan los informes principales al explicar políticas contables, criterios de medición y detalles de cuentas relevantes. Su función es aclarar información que no se observa completamente en las cifras, como vencimientos, garantías, deterioros, restricciones o compromisos. La información frecuente en notas a los estados financieros es la siguiente:
+                  .row.justify-content-center.mb-4.align-items-center
                     .col-lg-8.mb-3.mb-lg-0.order-lg-2
                       SlyderF(columnas="col-xl-6 col-lg-6 col-md-6 col-12")                        
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden.p-4.text-center
@@ -932,8 +931,8 @@
                     .col-lg-4.order-lg-1.d-none.d-lg-block
                         figure
                           img(src='@/assets/curso/temas/t2/img18.png', style="width: 500px", data-aos="zoom-in").m-auto
-              //- Fin Carrusel
-      p.mb-5(data-aos="fade-left") En la siguiente tabla se presentan ejemplos de notas que ayudan a interpretar mejor los estados financieros.
+                  //- Fin Carrusel
+                  p.mb-4(data-aos="fade-left") En la siguiente tabla se presentan ejemplos de notas que ayudan a interpretar mejor los estados financieros.
       //- Inicio Tabla
       .row.justify-content-center.mb-5(data-aos="fade-left")
         .col-md-auto.col-lg-10
@@ -976,7 +975,7 @@
                   td Ingresos, costos y gastos
                   td Detalles de partidas significativas
                   td Interpretar el resultado del periodo
-      .row.mb-5.justify-content-center.align-items-center
+      .row.justify-content-center.align-items-center
         .col-12.col-sm-9.col-lg-5.order-1.mb-4.mb-lg-0(data-aos="fade-left")
           figure.mb-0.text-center
             img(src='@/assets/curso/temas/t2/img19.png' style="width: 600px").m-auto        
@@ -1003,7 +1002,7 @@
       //- Título nivel 3 - Imagen
       p(data-aos="fade-left") La clasificación incorrecta de cuentas puede afectar la interpretación de la liquidez, el endeudamiento, la rentabilidad y la estructura financiera. A continuación, se presentan errores comunes, sus efectos y acciones recomendadas antes de emitir los estados financieros.
       //- Slideshow
-      .bg-full-width.bg-fondo-slider.mb-3
+      .bg-full-width.bg-fondo-slider.mb-4
         .p-4.p-md-5
           SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
             .row.align-items-center.p-4.p-md-5
@@ -1042,7 +1041,7 @@
                 h4 Mezclar gastos personales y empresariales
                 p Ocurre cuando se registran compras personales como gastos del negocio. Este error reduce indebidamente la utilidad del periodo, por lo que se recomienda separar las operaciones personales de las empresariales.
       //- Fin Slideshow
-      p(data-aos="fade-left") La elaboración de estados financieros básicos requiere organizar, clasificar y validar la información contable para reflejar la realidad económica de la empresa. Cuando esta información es completa, verificable y confiable, permite presentar informes financieros útiles para el análisis y la toma de decisiones.
+      p.mb-0(data-aos="fade-left") La elaboración de estados financieros básicos requiere organizar, clasificar y validar la información contable para reflejar la realidad económica de la empresa. Cuando esta información es completa, verificable y confiable, permite presentar informes financieros útiles para el análisis y la toma de decisiones.
 </template>
 
 <script>

@@ -6,12 +6,11 @@
         .titulo-principal__numero
           span 3
         h1 Procesamiento y visualización de información financiera
-      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
+      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/img1.png')})` }")
         .bloque-texto-g__texto.p-4
           p.mb-0 Las herramientas digitales facilitan la organización, cálculo, validación y presentación de información financiera. Las hojas electrónicas permiten estructurar datos y aplicar fórmulas, mientras que Power BI ayuda a crear informes visuales y tableros para analizar tendencias, variaciones y resultados de forma comprensible. (Microsoft Learn, 2026)
-      
       Separador
       //- Inicio Tema3.1
       .row
@@ -20,8 +19,8 @@
       p(data-aos="fade-left") La información financiera debe organizarse en tablas claras, comparables y uniformes, separando los datos originales de los cálculos. Esta estructura facilita revisar fórmulas, evitar errores y preparar análisis vertical, horizontal e indicadores financieros. La siguiente tabla presenta una forma de organizar la información:
       .row.bg-fondo-2.mt-5(data-aos="fade-right")
         .col-12
-          .pt-3.pb-5.px-5
-            .row.justify-content-center.mb-5
+          .pt-3.px-5
+            .row.justify-content-center
               .col-md-auto.col-lg-10
                 .titulo-sexto.color-acento-contenido.mb-3
                   h5 Tabla 9.
@@ -85,8 +84,8 @@
             img.h-100.w-100(src='@/assets/curso/temas/t3/img2.png', alt='', style="object-fit: cover;")      
       .row.bg-fondo-2.mt-5(data-aos="fade-right")
         .col-12
-          .pt-3.pb-5.px-5
-            .row.justify-content-center.mb-5
+          .pt-3.px-5
+            .row.justify-content-center
               .col-md-auto.col-lg-10
                 .titulo-sexto.color-acento-contenido.mb-3
                   h5 Tabla 10.
@@ -131,8 +130,8 @@
       p(data-aos="fade-left") Las tablas comparativas, gráficos y tableros facilitan el análisis financiero al presentar variaciones, tendencias e indicadores de forma clara. Estas herramientas apoyan la interpretación de resultados, permiten observar comportamientos relevantes y contribuyen a la toma de decisiones empresariales. La tabla siguiente indica cómo organizar información para calcular variaciones entre dos periodos.
       .row.bg-fondo-2.mt-5(data-aos="fade-right")
         .col-12
-          .pt-3.pb-5.px-5
-            .row.justify-content-center.mb-5
+          .pt-3.px-5
+            .row.justify-content-center
               .col-md-auto.col-lg-10
                 .titulo-sexto.color-acento-contenido.mb-3
                   h5 Tabla 11.
@@ -171,20 +170,19 @@
                         td $ 16.000.000
                         td $ 0
                         td 0,0 %
-
-      Separador
-      //- Inicio Tema3.4
-      .row
-        #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.4 Revisión de fórmulas y consistencia de datos	
-      .row.justify-content-center.mb-4(data-aos="fade-left")
+            Separador
+            //- Inicio Tema3.4
+            .row
+              #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+                h2 3.4 Revisión de fórmulas y consistencia de datos	
+      .row.justify-content-center(data-aos="fade-left")
         .col-lg-12
           .d-flex.flex-column.flex-lg-row.align-items-center
             .flex-shrink-0.mb-3.mb-lg-0.pe-lg-4
               img(src='@/assets/curso/temas/bg/lineas.svg', style="width: 80px")
             .flex-grow-1.text-center.text-lg-start
               p.mb-0 Antes de interpretar resultados, se deben validar fórmulas, datos, totales, periodos y clasificaciones. Esta revisión reduce errores, evita interpretar cifras equivocadas y garantiza información confiable para avanzar al análisis financiero. La tabla siguiente contiene la lista de revisión para hojas electrónicas financieras.
-      .row.bg-fondo-2.mt-5(data-aos="fade-right")
+      .row.bg-fondo-2.mt-4(data-aos="fade-right")
         .col-12
           .pt-3.pb-5.px-5
             .row.justify-content-center.mb-5
